@@ -12,6 +12,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "dev_build": "npx parcel reactInJS.html",
+    "prod_build": "parcel build reactInJS.html",
     "test": "jest"
   },
   "repository": {
