@@ -1,3 +1,30 @@
 #heading {
     color: rgb(228, 9, 9);
 }
+
+.headerDiv{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerList{
+    display: flex;
+    list-style: none;
+}
+
+ui.headerList .name{
+    padding: 25px 20px;
+}
+
+.logo{
+    height: 80px;
+    width: 110px;
+}
+
+.userImg{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 15px 20px !important;
+}
