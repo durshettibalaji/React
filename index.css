@@ -28,3 +28,33 @@ ui.headerList .name{
     width: 40px;
     padding: 15px 20px !important;
 }
+
+.card{
+   
+    width: 250px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+.card:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+
+}
+
+.dis_img{
+    margin: 15px;
+    width: 220px;
+    height: 200px;
+}
+
+.card_dish{
+    margin: 2px 20px;
+}
+.card_rating{
+    margin: 2px 20px;
+}
+.app_body{
+    display: flex;
+    flex-wrap: wrap;
+}
