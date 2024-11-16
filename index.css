@@ -58,3 +58,9 @@ ui.headerList .name{
     display: flex;
     flex-wrap: wrap;
 }
+.rated-btn{
+    margin-top: 2px;
+    padding: 20px;
+    border: 1px solid gray;
+    width: 200px;
+}
