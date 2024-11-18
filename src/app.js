@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot, ReactDOM } from "react-dom/client";
-import Index from "./components";
+import Index from "./components/Index";
 
 // const jsxHeader = <h1>jsx is html like syntax used to createreact elements </h1>
 // const num=1234;
