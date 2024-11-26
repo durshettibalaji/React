@@ -23,7 +23,7 @@ export default function BodyIndex() {
         'X-API-KEY': '+GTwHghlrF1yJ7qfluuke/nA4QtPAdByyzkD6k9xfUc='
       }
     };
-    const data = await fetch('https://openapiv1.coinstats.app/coins', options);
+    const data = await fetch('https://openapiv1.coinstats.app/coins?page=2&limit=20', options);
     const response = await data.json();
     console.log("data :",response,"\n result :",response.result);
     setRestList(response.result);
@@ -34,8 +34,7 @@ export default function BodyIndex() {
     //     'x-rapidapi-key': '89ef4da068msh478310797bd4e32p1a80dajsnce4a71675614',
     //     'x-rapidapi-host': 'ipl-api1.p.rapidapi.com'
     //   }
-    // };
-
+    
     // try {
     //   const response = await fetch(url, options);
     //   const result = await response.json();
